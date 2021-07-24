@@ -1,0 +1,27 @@
+{
+    "name": "Simple Suspender",
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "Suspend / unsuspend a tab, with minimal privacy concerns by design",
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_icon": {
+            "16": "icon16.png",
+            "24": "icon24.png",
+            "32": "icon32.png",
+            "48": "icon48.png"
+        },
+        "default_title": "Suspend"
+    },
+    "icons": {
+        "16": "icon16.png",
+        "32": "icon32.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+    },
+    "permissions": [
+        "activeTab"
+    ]
+}
