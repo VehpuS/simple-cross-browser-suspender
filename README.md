@@ -19,15 +19,40 @@ Looking to avoid another extension by and unknown developer (who can always chan
 ## Why is this solution safer
 
 - No static page - cannot be abused without changing the logic in a noticeable way.
-- Hash parameter - not sent to the server by the browser, by design.
+- Hash parameter - [not sent to a server by the browser, by design](https://stackoverflow.com/questions/15238391/hash-params-vs-url-params-when-to-use-which).
 - I decided to use localhost:0 as a "host" to keep things local, and on a port that shouldn't conflict with other services / local servers.
   - [See why here](https://www.lifewire.com/port-0-in-tcp-and-udp-818145).
 - Simple code base - easy to fork, install manually, and if necessary - replicate.
-- Advanced features will be "opt in" via a separate installation (on stores if / when I upload them) and branch - to always provide a stable, simple, base version.
 
-## Resources
+  - The core of the script boils down to:
+
+    ```javascript
+    const suspendPrefix = "https://localhost:0/#";
+    const toggleSuspendUrl = (pageUrl) =>
+      pageUrl.startsWith(suspendPrefix)
+        ? pageUrl.replace(suspendPrefix, "")
+        : `${suspendPrefix}${pageUrl}`;
+    if (browser) {
+      browser.browserAction.onClicked.addListener((tab) => {
+        browser.tabs.update(tab.id, { url: toggleSuspendUrl(tab.url) });
+      });
+    }
+    ```
+
+- The API I'm using doesn't require running Javascript code on the web page in the tab - just to get a page's URL. This makes the abuse potential minimal, and is reflected in the extensions limited permissions.
+- Advanced features, if/when added, will be "opt in" via a separate installation (on stores if / when I upload them) and branch (or possibly repository) - to always provide a stable, simple, and secure base version.
+
+## Known issues
+
+- Cannot unsuspend internal pages in Mozilla, due to [the following issue](https://bugzilla.mozilla.org/show_bug.cgi?id=1269456).
+
+## Resources for Potentially Relevant APIs
+
+- [Awesome resources](https://github.com/fregante/Awesome-WebExtensions).
 
 ### Cross Browser APIs
+
+- [Firefox general notes](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Build_a_cross_browser_extension).
 
 #### Base capability - read URL + redirect manually
 
@@ -57,3 +82,13 @@ Looking to avoid another extension by and unknown developer (who can always chan
 #### Mobile
 
 - [Firefox Docs](https://extensionworkshop.com/documentation/develop/differences-between-desktop-and-android-extensions/).
+
+### Handling error pages in browsers (current solution works without this)
+
+Chrome error pages take over the `window.location.href` attribute https://stackoverflow.com/questions/29989031/getting-the-current-domain-name-in-chrome-when-the-page-fails-to-load
+
+I used a different selector when trying to run code from the page (not the current solution - recorded here in case it is needed):
+
+```javascript
+document.querySelector(`[jscontent="failedUrl"]`)?.innerText;
+```
