@@ -10,25 +10,25 @@ A cross-browser extension to suspend inactive / unused tabs by "hiding" them beh
 
 1. Clone the repo from Github.
 2. Go to the [Manage Extensions page](chrome://extensions/).
-   <img src="https://github.com/VehpuS/simple-cross-browser-suspender/raw/master/docs/chrome_manage_extensions.png" />
+   <img src="https://raw.githubusercontent.com/VehpuS/simple-cross-browser-suspender/main/docs/chrome_manage_extensions.png" />
 
 3. Toggle on Developer Mode (top right corner).
-   <img src="https://github.com/VehpuS/simple-cross-browser-suspender/raw/master/docs/chrome_dev_mode_toggle.png" />
+   <img src="https://raw.githubusercontent.com/VehpuS/simple-cross-browser-suspender/main/docs/chrome_dev_mode_toggle.png" />
 
 4. Load the unpacked extension from the manifest-v3 folder (manifest-v2 will work too for now).
-   <img src="https://github.com/VehpuS/simple-cross-browser-suspender/raw/master/docs/chrome_load_unpacked_button.png" />
+   <img src="https://raw.githubusercontent.com/VehpuS/simple-cross-browser-suspender/main/docs/chrome_load_unpacked_button.png" />
 
 ### Edge
 
 1. Clone the repo from Github.
 2. Go to the [Manage Extensions page](edge://extensions/).
-   <img src="https://github.com/VehpuS/simple-cross-browser-suspender/raw/master/docs/edge_manage_extensions.png" />
+   <img src="https://raw.githubusercontent.com/VehpuS/simple-cross-browser-suspender/main/docs/edge_manage_extensions.png" />
 
 3. Toggle on Developer Mode (top right corner).
-   <img src="https://github.com/VehpuS/simple-cross-browser-suspender/raw/master/docs/edge_dev_mode_toggle.png" />
+   <img src="https://raw.githubusercontent.com/VehpuS/simple-cross-browser-suspender/main/docs/edge_dev_mode_toggle.png" />
 
 4. Load the unpacked extension from the manifest-v3 folder (manifest-v2 will work too for now).
-   <img src="https://github.com/VehpuS/simple-cross-browser-suspender/raw/master/docs/edge_load_unpacked_button.png" />
+   <img src="https://raw.githubusercontent.com/VehpuS/simple-cross-browser-suspender/main/docs/edge_load_unpacked_button.png" />
 
 ### Mozilla
 
@@ -38,14 +38,14 @@ A cross-browser extension to suspend inactive / unused tabs by "hiding" them beh
    1. If the URL doesn't work:
 
       1. Got to the [Add-ons Manager page](about:addons).
-         <img src="https://github.com/VehpuS/simple-cross-browser-suspender/raw/master/docs/mozilla_add_ons_and_themes.png" />
+         <img src="https://raw.githubusercontent.com/VehpuS/simple-cross-browser-suspender/main/docs/mozilla_add_ons_and_themes.png" />
 
       2. Select the gear icon next to "Manage Your Extensions" and select "Debug Add-ons".
-         <img src="https://github.com/VehpuS/simple-cross-browser-suspender/raw/master/docs/mozilla_tools_for_extensions.png" />
-         <img src="https://github.com/VehpuS/simple-cross-browser-suspender/raw/master/docs/mozilla_debug_add_ons.png" />
+         <img src="https://raw.githubusercontent.com/VehpuS/simple-cross-browser-suspender/main/docs/mozilla_tools_for_extensions.png" />
+         <img src="https://raw.githubusercontent.com/VehpuS/simple-cross-browser-suspender/main/docs/mozilla_debug_add_ons.png" />
 
 3. Press "Load Temporary Add-on..." and select the manifest-v2 folder (Mozilla doesn't support the manifest-v2 folder).
-   <img src="https://github.com/VehpuS/simple-cross-browser-suspender/raw/master/docs/mozilla_load_temp_add_on.png" />
+   <img src="https://raw.githubusercontent.com/VehpuS/simple-cross-browser-suspender/main/docs/mozilla_load_temp_add_on.png" />
 
 ## Background
 
