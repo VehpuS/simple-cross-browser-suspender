@@ -33,7 +33,7 @@ A cross-browser extension to suspend inactive / unused tabs by "hiding" them beh
 4. Load the unpacked extension from the manifest-v3 folder (manifest-v2 will work too for now).
    <img src="https://raw.githubusercontent.com/VehpuS/simple-cross-browser-suspender/main/docs/edge_load_unpacked_button.png" />
 
-### Mozilla
+### Firefox
 
 1. Clone the repo from Github.
 2. Go to the [Mozilla debugging page](about:debugging#/runtime/this-firefox).
