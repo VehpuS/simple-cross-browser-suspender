@@ -4,6 +4,9 @@
 
 A cross-browser extension to suspend inactive / unused tabs by "hiding" them behind a static, generic browser error page. Basically to suspend https://moshe-gr.com, it will be redirected to http://localhost:0/#https://www.moshe-gr.com (try it ;) ).
 
+## Store Links
+- [Firefox](https://addons.mozilla.org/en-US/firefox/addon/simple-suspender/)
+
 ## Manual Installation (running from source)
 
 ### Chrome
@@ -57,7 +60,7 @@ A cross-browser extension to suspend inactive / unused tabs by "hiding" them beh
 
 The great suspender was an extension that would automatically replace an open tab with a static, low memory page that would redirect back to the original on demand or after a set idle time. After a change of ownership, it was abused to contain malware, and therefore removed by Google.
 
-Looking to avoid another extension by and unknown developer (who can always change), I opted to find a safer solution. I believe I have found it and want to share it in a way that can let others use / replicate it for their own benefit, at the level of knowledge and safety they require.
+Looking to avoid another extension by an unknown developer (who can always change), I opted to find a safer solution. I believe I have found it and want to share it in a way that can let others use / replicate it for their own benefit, at the level of knowledge and safety they require.
 
 ## Why is this solution safer
 
@@ -83,11 +86,14 @@ Looking to avoid another extension by and unknown developer (who can always chan
     ```
 
 - The API I'm using doesn't require running Javascript code on the web page in the tab - just to get a page's URL. This makes the abuse potential minimal, and is reflected in the extensions limited permissions.
-- Advanced features, if/when added, will be "opt in" via a separate installation (on stores if / when I upload them) and branch (or possibly repository) - to always provide a stable, simple, and secure base version.
+
+- Advanced features, if/when added, will be "opt in" via a separate installation (on stores if / when I upload them) 
+
+ branch (or possibly repository) - to always provide a stable, simple, and secure base version.
 
 ## Known issues
 
-- Cannot unsuspend internal pages in Mozilla, due to [the following issue](https://bugzilla.mozilla.org/show_bug.cgi?id=1269456).
+- Cannot unsuspend internal pages in Firefox, due to [the following issue](https://bugzilla.mozilla.org/show_bug.cgi?id=1269456).
 
 ## Resources for Potentially Relevant APIs
 
