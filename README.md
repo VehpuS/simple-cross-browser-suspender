@@ -5,6 +5,7 @@
 A cross-browser extension to suspend inactive / unused tabs by "hiding" them behind a static, generic browser error page. Basically to suspend https://moshe-gr.com, it will be redirected to http://localhost:0/#https://www.moshe-gr.com (try it ;) ).
 
 ## Store Links
+- [Chrome](https://chrome.google.com/webstore/detail/simple-suspender/foejeakhjndjjodhmcieiihikcdpciak)
 - [Firefox](https://addons.mozilla.org/en-US/firefox/addon/simple-suspender/)
 
 ## Manual Installation (running from source)
@@ -47,7 +48,7 @@ A cross-browser extension to suspend inactive / unused tabs by "hiding" them beh
          <img src="https://raw.githubusercontent.com/VehpuS/simple-cross-browser-suspender/main/docs/mozilla_tools_for_extensions.png" />
          <img src="https://raw.githubusercontent.com/VehpuS/simple-cross-browser-suspender/main/docs/mozilla_debug_add_ons.png" />
 
-3. Press "Load Temporary Add-on..." and select the manifest-v2 folder (Mozilla doesn't support the manifest-v2 folder).
+3. Press "Load Temporary Add-on..." and select the manifest-v2 folder (Mozilla doesn't support manifest-v3 at the time [July 2021]).
    <img src="https://raw.githubusercontent.com/VehpuS/simple-cross-browser-suspender/main/docs/mozilla_load_temp_add_on.png" />
 
 ## Background
