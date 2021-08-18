@@ -7,6 +7,7 @@ A cross-browser extension to suspend inactive / unused tabs by "hiding" them beh
 ## Store Links
 - [Chrome](https://chrome.google.com/webstore/detail/simple-suspender/foejeakhjndjjodhmcieiihikcdpciak)
 - [Firefox](https://addons.mozilla.org/en-US/firefox/addon/simple-suspender/)
+- [Edge](https://microsoftedge.microsoft.com/addons/detail/simple-suspender/egjddmhmlkhjoclcmijopmjcnkohpdbh)
 
 ## Manual Installation (running from source)
 
