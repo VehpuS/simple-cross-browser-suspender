@@ -15,49 +15,6 @@ A cross-browser extension to suspend inactive / unused tabs by "hiding" them beh
 - [Firefox](https://addons.mozilla.org/en-US/firefox/addon/simple-suspender/)
 - [Edge](https://microsoftedge.microsoft.com/addons/detail/simple-suspender/egjddmhmlkhjoclcmijopmjcnkohpdbh)
 
-## Manual Installation (running from source)
-
-### Chrome
-
-1. Clone the repo from Github.
-2. Go to the [Manage Extensions page](chrome://extensions/).
-   <img src="https://raw.githubusercontent.com/VehpuS/simple-cross-browser-suspender/main/docs/chrome_manage_extensions.png" />
-
-3. Toggle on Developer Mode (top right corner).
-   <img src="https://raw.githubusercontent.com/VehpuS/simple-cross-browser-suspender/main/docs/chrome_dev_mode_toggle.png" />
-
-4. Load the unpacked extension from the manifest-v3 folder (manifest-v2 will work too for now).
-   <img src="https://raw.githubusercontent.com/VehpuS/simple-cross-browser-suspender/main/docs/chrome_load_unpacked_button.png" />
-
-### Edge
-
-1. Clone the repo from Github.
-2. Go to the [Manage Extensions page](edge://extensions/).
-   <img src="https://raw.githubusercontent.com/VehpuS/simple-cross-browser-suspender/main/docs/edge_manage_extensions.png" />
-
-3. Toggle on Developer Mode (top right corner).
-   <img src="https://raw.githubusercontent.com/VehpuS/simple-cross-browser-suspender/main/docs/edge_dev_mode_toggle.png" />
-
-4. Load the unpacked extension from the manifest-v3 folder (manifest-v2 will work too for now).
-   <img src="https://raw.githubusercontent.com/VehpuS/simple-cross-browser-suspender/main/docs/edge_load_unpacked_button.png" />
-
-### Firefox
-
-1. Clone the repo from Github.
-2. Go to the [Mozilla debugging page](about:debugging#/runtime/this-firefox).
-
-   1. If the URL doesn't work:
-
-      1. Got to the [Add-ons Manager page](about:addons).
-         <img src="https://raw.githubusercontent.com/VehpuS/simple-cross-browser-suspender/main/docs/mozilla_add_ons_and_themes.png" />
-
-      2. Select the gear icon next to "Manage Your Extensions" and select "Debug Add-ons".
-         <img src="https://raw.githubusercontent.com/VehpuS/simple-cross-browser-suspender/main/docs/mozilla_tools_for_extensions.png" />
-         <img src="https://raw.githubusercontent.com/VehpuS/simple-cross-browser-suspender/main/docs/mozilla_debug_add_ons.png" />
-
-3. Press "Load Temporary Add-on..." and select the manifest-v2 folder (Mozilla doesn't support manifest-v3 at the time [July 2021]).
-   <img src="https://raw.githubusercontent.com/VehpuS/simple-cross-browser-suspender/main/docs/mozilla_load_temp_add_on.png" />
-
 ## Background
 
 [The great suspender (RIP)](https://www.zdnet.com/article/google-kills-the-great-suspender-heres-what-you-should-do-next/).
@@ -100,6 +57,49 @@ Looking to avoid another extension by an unknown developer (who can always chang
 ## Known issues
 
 - Cannot unsuspend internal pages in Firefox, due to [the following issue](https://bugzilla.mozilla.org/show_bug.cgi?id=1269456).
+
+## Manual Installation (running from source)
+
+### Chrome
+
+1. Clone the repo from Github.
+2. Go to the [Manage Extensions page](chrome://extensions/).
+   <img src="https://raw.githubusercontent.com/VehpuS/simple-cross-browser-suspender/main/docs/chrome_manage_extensions.png" />
+
+3. Toggle on Developer Mode (top right corner).
+   <img src="https://raw.githubusercontent.com/VehpuS/simple-cross-browser-suspender/main/docs/chrome_dev_mode_toggle.png" />
+
+4. Load the unpacked extension from the manifest-v3 folder (manifest-v2 will work too for now).
+   <img src="https://raw.githubusercontent.com/VehpuS/simple-cross-browser-suspender/main/docs/chrome_load_unpacked_button.png" />
+
+### Edge
+
+1. Clone the repo from Github.
+2. Go to the [Manage Extensions page](edge://extensions/).
+   <img src="https://raw.githubusercontent.com/VehpuS/simple-cross-browser-suspender/main/docs/edge_manage_extensions.png" />
+
+3. Toggle on Developer Mode (top right corner).
+   <img src="https://raw.githubusercontent.com/VehpuS/simple-cross-browser-suspender/main/docs/edge_dev_mode_toggle.png" />
+
+4. Load the unpacked extension from the manifest-v3 folder (manifest-v2 will work too for now).
+   <img src="https://raw.githubusercontent.com/VehpuS/simple-cross-browser-suspender/main/docs/edge_load_unpacked_button.png" />
+
+### Firefox
+
+1. Clone the repo from Github.
+2. Go to the [Mozilla debugging page](about:debugging#/runtime/this-firefox).
+
+   1. If the URL doesn't work:
+
+      1. Got to the [Add-ons Manager page](about:addons).
+         <img src="https://raw.githubusercontent.com/VehpuS/simple-cross-browser-suspender/main/docs/mozilla_add_ons_and_themes.png" />
+
+      2. Select the gear icon next to "Manage Your Extensions" and select "Debug Add-ons".
+         <img src="https://raw.githubusercontent.com/VehpuS/simple-cross-browser-suspender/main/docs/mozilla_tools_for_extensions.png" />
+         <img src="https://raw.githubusercontent.com/VehpuS/simple-cross-browser-suspender/main/docs/mozilla_debug_add_ons.png" />
+
+3. Press "Load Temporary Add-on..." and select the manifest-v2 folder (Mozilla doesn't support manifest-v3 at the time [July 2021]).
+   <img src="https://raw.githubusercontent.com/VehpuS/simple-cross-browser-suspender/main/docs/mozilla_load_temp_add_on.png" />
 
 ## Resources for Potentially Relevant APIs
 
