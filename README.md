@@ -1,4 +1,10 @@
 # Simple Cross Browser Suspender Extension
+<a href="https://chrome.google.com/webstore/detail/simple-suspender/foejeakhjndjjodhmcieiihikcdpciak" target="_blank"><img src="https://storage.googleapis.com/chrome-gcs-uploader.appspot.com/image/WlD8wC6g8khYWPJUsQceQkhXSlv1/UV4C4ybeBTsZt43U4xis.png" alt="Link to Chrome Web Store" /></a>
+<a href="https://addons.mozilla.org/en-US/firefox/addon/simple-suspender/" target="_blank"><img src="https://ffp4g1ylyit3jdyti1hqcvtb-wpengine.netdna-ssl.com/addons/files/2015/11/get-the-addon.png" alt="Link to Firefox Web Store" /></a>
+<a href="https://microsoftedge.microsoft.com/addons/detail/egjddmhmlkhjoclcmijopmjcnkohpdbh" target="_blank"><img src="https://user-images.githubusercontent.com/11660256/111323589-4f4c7c00-866a-11eb-80ff-da7de777d7c0.png" alt="Link to Edge Web Store" /></a>
+<a href="https://www.producthunt.com/posts/simple-suspender?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-simple-suspender" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=309577&theme=dark" alt="Simple Suspender - A multi browser tab suspender - safely and privately | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+
+> Note: The badge for edge is an unofficial one made by [Liozon](https://gist.github.com/Liozon/cf898c47628bfecd9896f79e6c9a8db8).
 
 ## Summary
 
