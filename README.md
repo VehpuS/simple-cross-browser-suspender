@@ -89,9 +89,7 @@ Looking to avoid another extension by an unknown developer (who can always chang
 
 - The API I'm using doesn't require running Javascript code on the web page in the tab - just to get a page's URL. This makes the abuse potential minimal, and is reflected in the extensions limited permissions.
 
-- Advanced features, if/when added, will be "opt in" via a separate installation (on stores if / when I upload them) 
-
- branch (or possibly repository) - to always provide a stable, simple, and secure base version.
+- Advanced features, if/when added, will be "opt in" via a separate installation (on stores if / when I upload them) and branch (or possibly repository) - to always provide a stable, simple, and secure base version.
 
 ## Known issues
 
