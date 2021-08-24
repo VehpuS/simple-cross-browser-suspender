@@ -5,6 +5,7 @@
 <a href="https://www.producthunt.com/posts/simple-suspender?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-simple-suspender" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=309577&theme=dark" alt="Simple Suspender - A multi browser tab suspender - safely and privately | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
 
 > Note: The badge for edge is an unofficial one made by [Liozon](https://gist.github.com/Liozon/cf898c47628bfecd9896f79e6c9a8db8).
+> App icon from https://pixabay.com/vectors/suspension-bridge-golden-gate-bridge-161705/
 
 ## Summary
 
